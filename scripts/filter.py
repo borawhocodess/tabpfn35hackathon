@@ -1,5 +1,6 @@
 import os
 import re
+from pathlib import Path
 
 import pandas as pd
 
@@ -48,7 +49,7 @@ def filter_events(name, since=None, until=None):
     table = pd.read_csv("workdir/rules/rename.tsv", sep="\t", dtype=str, keep_default_na=False)
     names = dict(zip(table["name"], table["alias"]))
     after = {name: words.split() for name, words in zip(table["name"], table["after"]) if words}
-    keep = open("workdir/rules/keep.txt").read().splitlines()
+    keep = Path("workdir/rules/keep.txt").read_text().splitlines()
     titles = pd.read_csv("workdir/rules/retitle.tsv", sep="\t", dtype=str, keep_default_na=False)
     titles = dict(zip(titles["title"], titles["new"]))
 
