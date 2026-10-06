@@ -33,7 +33,9 @@ rl · signal · 2026-10-06 20:00
 00:00  240 min  █                          2%
 ```
 
-it gives a probability for every number of minutes, i add them up in steps of 15 minutes because that is how i log
+it gives a probability for every number of minutes
+
+i add them up in steps of 15 minutes because that is how i log
 
 ## evaluate
 
@@ -103,6 +105,8 @@ data files:
 - [events-2026-09-22-filtered.tsv](data/events-2026-09-22-filtered.tsv) - 5136 events - 2024-09-12 to 2026-09-22
 - [events-2026-10-06-filtered.tsv](data/events-2026-10-06-filtered.tsv) - 85 events - 2026-09-22 to 2026-10-06
 
-there are two files because i exported my calendar on 22 sep, before i archived it. 
-the second export is from today and holds the two weeks since. 
+there are two files because i exported my calendar on 22 sep, before i archived
+
+the second export is from today and holds the two weeks since
+
 i use those as unseen test data in evaluation.
