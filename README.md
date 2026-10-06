@@ -26,11 +26,11 @@ tabpfn 3.5 takes every block i ever logged as context and predicts the end
 ```
 rl · signal · 2026-10-06 20:00
 
-21:00   60 min  ████████████████████████  55%
-21:30   90 min  ████                       9%
-22:00  120 min  ██████████                24%
-22:30  150 min  █                          2%
-23:00  180 min  ██                         4%
+21:00   60 min  ████████████████████████  56%
+21:30   90 min  ███                        7%
+22:00  120 min  ██████████                22%
+23:00  180 min  ██                         5%
+00:00  240 min  █                          2%
 ```
 
 it gives a probability for every number of minutes, i add them up in steps of 15 minutes because that is how i log
@@ -45,11 +45,11 @@ uv run python tabcal.py evaluate
 
 ```
 train  5136 events  2024-09-12 to 2026-09-22
-test     83 events  2026-09-22 to 2026-10-06
+test     85 events  2026-09-22 to 2026-10-06
 
 model      mae  rmse
-baseline  46.7  65.3
-tabpfn    35.4  52.9
+baseline  47.7  66.5
+tabpfn    36.7  54.8
 ```
 
 mae and rmse are in minutes
@@ -82,7 +82,7 @@ filters:
 | file | events | from | to |
 |---|---|---|---|
 | `data/events-2026-09-22-filtered.tsv` | 5136 | 2024-09-12 | 2026-09-22 |
-| `data/events-2026-10-06-filtered.tsv` | 83 | 2026-09-22 | 2026-10-06 |
+| `data/events-2026-10-06-filtered.tsv` | 85 | 2026-09-22 | 2026-10-06 |
 
 there are two files because i exported my calendar on 22 sep, before i archived it. the second export is from today and holds the two weeks since. i use those as unseen test data.
 

@@ -82,3 +82,5 @@ sleep	sleep	false	2026-10-06 05:00	2026-10-06 07:00
 sleep	sleep	false	2026-10-06 07:00	2026-10-06 08:30
 sleep	sleep	false	2026-10-06 08:30	2026-10-06 10:00
 tabpfn hackathon	signal	false	2026-10-06 12:00	2026-10-06 13:00
+tabpfn hackathon	signal	false	2026-10-06 14:00	2026-10-06 18:00
+tabpfn hackathon	signal	false	2026-10-06 18:30	2026-10-06 19:30

@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
     # the two exports were made at these times
     first = "2026-09-22 12:56"
-    second = "2026-10-06 14:11"
+    second = "2026-10-06 22:34"
 
     train = filter_events("events-2026-09-22", until=first)
     test = filter_events("events-2026-10-06", since=first, until=second)
