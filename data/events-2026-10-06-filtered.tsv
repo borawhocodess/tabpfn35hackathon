@@ -1,0 +1,84 @@
+title	calendar	allday	start	end
+sleep	sleep	false	2026-09-22 23:00	2026-09-23 03:00
+sleep	sleep	false	2026-09-23 03:00	2026-09-23 07:00
+sleep	sleep	false	2026-09-23 07:00	2026-09-23 08:00
+modded pr 19	hiwi	false	2026-09-23 09:00	2026-09-23 11:30
+sleep	sleep	false	2026-09-23 13:00	2026-09-23 14:00
+sleep	sleep	false	2026-09-23 14:30	2026-09-23 16:30
+modded pr 19	hiwi	false	2026-09-23 16:30	2026-09-23 18:00
+modded pr 19	hiwi	false	2026-09-23 21:30	2026-09-23 22:30
+modded pr 20	hiwi	false	2026-09-23 22:30	2026-09-23 23:30
+sleep	sleep	false	2026-09-24 02:00	2026-09-24 04:30
+sleep	sleep	false	2026-09-24 04:30	2026-09-24 07:00
+sleep	sleep	false	2026-09-24 07:00	2026-09-24 08:30
+sleep	sleep	false	2026-09-24 08:30	2026-09-24 09:30
+modded pr 19	hiwi	false	2026-09-24 10:30	2026-09-24 12:00
+modded pr 20	hiwi	false	2026-09-24 12:00	2026-09-24 13:00
+meeting	hiwi	false	2026-09-24 13:00	2026-09-24 14:00
+modded pr 20	hiwi	false	2026-09-24 14:00	2026-09-24 15:00
+muzaffer defence	signal	false	2026-09-24 15:00	2026-09-24 16:00
+sleep	sleep	false	2026-09-25 00:00	2026-09-25 03:00
+sleep	sleep	false	2026-09-25 03:00	2026-09-25 05:30
+sleep	sleep	false	2026-09-25 05:30	2026-09-25 08:00
+hiwi	hiwi	false	2026-09-25 13:00	2026-09-25 15:00
+tfmp meeting	hiwi	false	2026-09-25 15:00	2026-09-25 16:00
+run 20k chiara	sport	false	2026-09-25 16:30	2026-09-25 19:00
+sleep	sleep	false	2026-09-25 22:00	2026-09-26 01:00
+sleep	sleep	false	2026-09-26 01:00	2026-09-26 04:00
+sleep	sleep	false	2026-09-26 04:00	2026-09-26 06:00
+sleep	sleep	false	2026-09-26 09:00	2026-09-26 10:00
+sleep	sleep	false	2026-09-26 15:00	2026-09-26 16:00
+hiwi	hiwi	false	2026-09-26 17:00	2026-09-26 18:00
+hiwi	hiwi	false	2026-09-26 19:00	2026-09-26 20:00
+sleep	sleep	false	2026-09-27 02:30	2026-09-27 05:00
+sleep	sleep	false	2026-09-27 05:00	2026-09-27 07:30
+sleep	sleep	false	2026-09-27 07:30	2026-09-27 09:30
+sleep	sleep	false	2026-09-27 09:30	2026-09-27 10:30
+water anouk	noise	false	2026-09-27 12:00	2026-09-27 13:00
+sleep	sleep	false	2026-09-28 02:30	2026-09-28 06:00
+sleep	sleep	false	2026-09-28 06:00	2026-09-28 09:00
+sleep	sleep	false	2026-09-28 09:00	2026-09-28 10:30
+TabPFN-3.5 Model Deep Dive	signal	false	2026-09-28 17:00	2026-09-28 18:00
+sleep	sleep	false	2026-09-29 04:00	2026-09-29 07:00
+sleep	sleep	false	2026-09-29 07:00	2026-09-29 10:00
+modded pr 20	hiwi	false	2026-09-29 12:30	2026-09-29 15:00
+openai devday	signal	false	2026-09-29 19:00	2026-09-29 20:00
+kasespatzle mit jannis	noise	false	2026-09-29 20:00	2026-09-29 23:00
+sleep	sleep	false	2026-09-30 04:00	2026-09-30 07:00
+sleep	sleep	false	2026-09-30 07:00	2026-09-30 08:30
+Freiburg ➞ Karlsruhe	noise	false	2026-09-30 09:21	2026-09-30 10:23
+modded pr 20	hiwi	false	2026-09-30 12:30	2026-09-30 13:30
+modded pr 22	hiwi	false	2026-09-30 13:30	2026-09-30 14:30
+kutay wedding witness	noise	false	2026-09-30 15:00	2026-09-30 16:00
+ELLIS PhD Program - Info Session Prospective Applicants (2026-2027)	signal	false	2026-09-30 16:00	2026-09-30 18:00
+Karlsruhe ➞ Freiburg	noise	false	2026-09-30 18:24	2026-09-30 19:30
+sleep	sleep	false	2026-10-01 02:30	2026-10-01 07:00
+sleep	sleep	false	2026-10-01 07:00	2026-10-01 08:30
+modded pr 22	hiwi	false	2026-10-01 13:00	2026-10-01 14:00
+sleep	sleep	false	2026-10-02 03:00	2026-10-02 07:00
+sleep	sleep	false	2026-10-02 07:00	2026-10-02 09:00
+samfit	sport	false	2026-10-02 10:15	2026-10-02 11:15
+hiwi	hiwi	false	2026-10-02 11:30	2026-10-02 12:30
+hiwi	hiwi	false	2026-10-02 13:00	2026-10-02 15:00
+tfmp meeting	hiwi	false	2026-10-02 15:00	2026-10-02 17:00
+hiwi	hiwi	false	2026-10-02 17:00	2026-10-02 20:00
+sleep	sleep	false	2026-10-03 03:00	2026-10-03 08:30
+sleep	sleep	false	2026-10-03 08:30	2026-10-03 11:30
+sleep	sleep	false	2026-10-04 01:00	2026-10-04 03:00
+sleep	sleep	false	2026-10-04 03:00	2026-10-04 05:00
+sleep	sleep	false	2026-10-04 05:00	2026-10-04 07:00
+sleep	sleep	false	2026-10-04 07:00	2026-10-04 08:30
+sleep	sleep	false	2026-10-04 08:30	2026-10-04 09:30
+tabpfn opus video	signal	false	2026-10-04 11:00	2026-10-04 15:00
+tabpfn opus video	signal	false	2026-10-04 16:30	2026-10-04 17:30
+sleep	sleep	false	2026-10-05 03:00	2026-10-05 06:00
+sleep	sleep	false	2026-10-05 06:00	2026-10-05 10:00
+water anouk	noise	false	2026-10-05 10:30	2026-10-05 11:30
+thesis	signal	false	2026-10-05 21:00	2026-10-05 22:00
+pha	sport	false	2026-10-05 23:00	2026-10-06 00:00
+sleep	sleep	false	2026-10-06 01:00	2026-10-06 03:00
+sleep	sleep	false	2026-10-06 03:00	2026-10-06 05:00
+sleep	sleep	false	2026-10-06 05:00	2026-10-06 07:00
+sleep	sleep	false	2026-10-06 07:00	2026-10-06 08:30
+sleep	sleep	false	2026-10-06 08:30	2026-10-06 10:00
+tabpfn hackathon	signal	false	2026-10-06 12:00	2026-10-06 13:00
