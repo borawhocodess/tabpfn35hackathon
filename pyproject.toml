@@ -1,0 +1,9 @@
+[project]
+name = "tabpfn35hackathon"
+version = "0.0.1"
+description = "predicting calendar blocks with tabpfn 3.5"
+requires-python = ">=3.11"
+dependencies = [
+    "tabpfn-client",
+    "pandas",
+]
