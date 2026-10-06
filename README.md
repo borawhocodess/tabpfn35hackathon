@@ -99,10 +99,10 @@ calendars i use:
 - `sleep`
 - `archive` - everything before i changed the way i log my calendar
 
-| file | events | from | to |
-|---|---|---|---|
-| `data/events-2026-09-22-filtered.tsv` | 5136 | 2024-09-12 | 2026-09-22 |
-| `data/events-2026-10-06-filtered.tsv` | 85 | 2026-09-22 | 2026-10-06 |
+data files:
+- [events-2026-09-22-filtered.tsv](data/events-2026-09-22-filtered.tsv) - 5136 events - 2024-09-12 to 2026-09-22
+- [events-2026-10-06-filtered.tsv](data/events-2026-10-06-filtered.tsv) - 85 events - 2026-09-22 to 2026-10-06
 
-there are two files because i exported my calendar on 22 sep, before i archived it. the second export is from today and holds the two weeks since. i use those as unseen test data.
-
+there are two files because i exported my calendar on 22 sep, before i archived it. 
+the second export is from today and holds the two weeks since. 
+i use those as unseen test data in evaluation.
