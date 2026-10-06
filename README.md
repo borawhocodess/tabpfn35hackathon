@@ -1,8 +1,60 @@
-# tabpfn35hackathon
+# tabcal
 
 predicting calendar blocks with tabpfn 3.5
 
 for [tabpfn-3.5 hackathon](https://platform.priorlabs.ai/hackathon-3.5)
+
+## setup
+
+```sh
+uv sync
+uv run python -c "from tabpfn_client import interactive_login; interactive_login()"
+```
+
+## predict
+
+i give a title, a calendar and a start time 
+
+the start is a time for today or a full date like `"2026-10-07 09:00"`
+
+```sh
+uv run python tabcal.py predict "rl" signal 20:00
+```
+
+tabpfn 3.5 takes every block i ever logged as context and predicts the end
+
+```
+rl · signal · 2026-10-06 20:00
+
+21:00   60 min  ████████████████████████  55%
+21:30   90 min  ████                       9%
+22:00  120 min  ██████████                24%
+22:30  150 min  █                          2%
+23:00  180 min  ██                         4%
+```
+
+it gives a probability for every number of minutes, i add them up in steps of 15 minutes because that is how i log
+
+## evaluate
+
+train on everything before 22 sep and test on the two weeks after
+
+```sh
+uv run python tabcal.py evaluate
+```
+
+```
+train  5136 events  2024-09-12 to 2026-09-22
+test     83 events  2026-09-22 to 2026-10-06
+
+model      mae  rmse
+baseline  46.7  65.3
+tabpfn    35.4  52.9
+```
+
+mae and rmse are in minutes
+
+other evaluations also have been done (not here bc almost out of daily api credits)
 
 ## data
 
