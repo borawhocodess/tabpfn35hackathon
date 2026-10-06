@@ -8,6 +8,8 @@ for [tabpfn-3.5 hackathon](https://platform.priorlabs.ai/hackathon-3.5)
 
 every block i logged for two years in my apple calendar
 
+these are noisy estimates of my life 
+
 read the calendar with a swift script and filtered with python
 
 ```sh
