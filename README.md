@@ -79,13 +79,6 @@ filters:
 - planned events that had not happened yet are cut
 - notes column is dropped
 
-| file | events | from | to |
-|---|---|---|---|
-| `data/events-2026-09-22-filtered.tsv` | 5136 | 2024-09-12 | 2026-09-22 |
-| `data/events-2026-10-06-filtered.tsv` | 85 | 2026-09-22 | 2026-10-06 |
-
-there are two files because i exported my calendar on 22 sep, before i archived it. the second export is from today and holds the two weeks since. i use those as unseen test data.
-
 small example here:
 
 | title | calendar | allday | start | end |
@@ -105,3 +98,11 @@ calendars i use:
 - `sport` - this was noise before then i started tracking it separately
 - `sleep`
 - `archive` - everything before i changed the way i log my calendar
+
+| file | events | from | to |
+|---|---|---|---|
+| `data/events-2026-09-22-filtered.tsv` | 5136 | 2024-09-12 | 2026-09-22 |
+| `data/events-2026-10-06-filtered.tsv` | 85 | 2026-09-22 | 2026-10-06 |
+
+there are two files because i exported my calendar on 22 sep, before i archived it. the second export is from today and holds the two weeks since. i use those as unseen test data.
+
