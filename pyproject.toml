@@ -12,3 +12,6 @@ dependencies = [
     "scikit-learn",
     "scipy",
 ]
+
+[tool.ruff]
+line-length = 120
