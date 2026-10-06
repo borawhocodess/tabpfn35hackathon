@@ -34,16 +34,6 @@ filters:
 
 there are two files because i exported my calendar on 22 sep, before i archived it. the second export is from today and holds the two weeks since. i use those as unseen test data.
 
-columns: `title` `calendar` `allday` `start` `end`
-
-calendars:
-- `signal` - focused work and study hours
-- `hiwi` - my student job hours
-- `noise` - everything else
-- `sport` - this was noise before then i started tracking it separately
-- `sleep`
-- `archive` - everything before i changed the way i log my calendar
-
 small example here:
 
 | title | calendar | allday | start | end |
@@ -55,3 +45,11 @@ small example here:
 | sleep | sleep | false | 2026-07-11 07:00 | 2026-07-11 10:00 |
 | tagesschau | archive | false | 2024-12-16 20:00 | 2024-12-16 20:30 |
 | xmas break | archive | true | 2025-12-23 00:00 | 2026-01-06 23:59 |
+
+calendars i use:
+- `signal` - focused work and study hours
+- `hiwi` - my student job hours
+- `noise` - everything else
+- `sport` - this was noise before then i started tracking it separately
+- `sleep`
+- `archive` - everything before i changed the way i log my calendar
